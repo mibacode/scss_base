@@ -1,14 +1,9 @@
-// PAGES is not included because each individual page must be added to the
-//     Gruntfile.JS file.+  
 @charset "UTF-8"; 
 
 //----------------------------------*\  
 // SCSS MIXINS
 //----------------------------------*/ 
 
-@import 'mixins/_position.scss';
-@import 'mixins/_selection.scss';
-@import 'mixins/_transition.scss';
 
 //----------------------------------*\
 // CONFIG MODULES
@@ -51,9 +46,9 @@
 //----------------------------------*\
 // VENDOR  
 //----------------------------------*/
-@import "vendor/bourbon/bourbon";
-@import "vendor/neat/neat";
+
+
+
 //----------------------------------*\
 // PACKAGES
 //----------------------------------*/ 
-@import '../../../../bower_components/components-font-awesome/scss/font-awesome.scss';
