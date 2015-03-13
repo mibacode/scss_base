@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+*, *:focus {
+    outline: 0;
+}
+@include selection($selection-bg: #333, $selection-c: #fff, $selection-ts: none);
+
+body {
+  font: 16px $primary-fonts;
+  background: #fff;
+  color: #444;
+}
+.fw {
+	width: 100%;
+	float: left;
+}

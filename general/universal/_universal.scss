@@ -1,0 +1,59 @@
+// PAGES is not included because each individual page must be added to the
+//     Gruntfile.JS file.+  
+@charset "UTF-8"; 
+
+//----------------------------------*\  
+// SCSS MIXINS
+//----------------------------------*/ 
+
+@import 'mixins/_position.scss';
+@import 'mixins/_selection.scss';
+@import 'mixins/_transition.scss';
+
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+
+// Config modules
+@import 'modules/_vars.scss';
+@import 'modules/_reset.scss'; 
+@import 'modules/_clearfix.scss';
+@import 'modules/_defaults.scss';
+
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+
+@import 'partials/_header.scss';
+@import 'partials/_nav.scss';
+@import 'partials/_general.scss'; 
+@import 'partials/_main.scss';
+@import 'partials/_footer.scss'; 
+
+//----------------------------------*\
+// OBJECTS & MODULES
+//----------------------------------*/
+
+@import 'modules/_grid.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_forms.scss';
+@import 'modules/_lists.scss';
+@import 'modules/_links.scss';
+@import 'modules/_typography.scss';
+@import 'modules/_misc.scss';
+@import 'modules/_app.scss';
+@import 'modules/_table.scss'; 
+
+// Enhancement modules
+@import 'modules/_breakpoints.scss';
+@import 'modules/_print.scss';
+
+//----------------------------------*\
+// VENDOR  
+//----------------------------------*/
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+//----------------------------------*\
+// PACKAGES
+//----------------------------------*/ 
+@import '../../../../bower_components/components-font-awesome/scss/font-awesome.scss';
